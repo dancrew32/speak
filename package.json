@@ -1,0 +1,13 @@
+{
+  "name": "speak-electron",
+  "version": "0.0.1",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^31"
+  }
+}
+
