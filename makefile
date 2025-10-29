@@ -17,3 +17,14 @@ run_back:
 
 run:
 	npm start
+
+front_pretty:
+	./node_modules/.bin/prettier "*.{js,css}" --ignore-path .gitignore --write
+
+back_pretty:
+	./venv/bin/black main.py
+
+pretty: back_pretty front_pretty
+
+checkin: pretty
+	git add -Ap && git commit && git push
