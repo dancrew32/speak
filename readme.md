@@ -6,3 +6,5 @@ make venv deps run_back
 make run
 # electron app opens
 ```
+
+![electron app demo](demo.png)
